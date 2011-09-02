@@ -1,5 +1,5 @@
 /**
- *
+ * @author Jongmin Kim (@golanger)
  */
 
 package main
@@ -49,7 +49,7 @@ func Shorten(w http.ResponseWriter, r *http.Request) {
 
     store.Put(&key, &long_url)
 
-    v := make(map[string]interface{})
+    v := make(map[string]string)
     v["url"] = "http://" + *hostName + "/" + key
 
     enc := json.NewEncoder(w)

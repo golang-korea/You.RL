@@ -1,5 +1,5 @@
 /**
- *
+ * @author Jongmin Kim (@golanger)
  */
 
 package main

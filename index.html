@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="/index.js"></script>
+</head>
+<body>
+
+<h2 style="font-family: 'Aldrich'">{Logo}</h2>
+
+<form name="frm_url" method="post" action="/shorten" onsubmit="return false">
+    <input type="text" id="url" name="url" style="width: 330px; font-weight: bold; height: 25px; font-size: 16px;" placeholder="Paste your long URL here">
+    <button id="btn_shorten" style="width: 80px; height: 28px;">Shorten</button>&nbsp;&nbsp;&nbsp;
+    <input type="text" id="shorten_url" name="shorten_url" readonly style="width: 220px; height: 25px; font-weight: bold; font-size: 16px; border: 0; font-family: 'Aldrich';" value="http://you.rl/...">
+</form>
+
+</body>
+</html>
